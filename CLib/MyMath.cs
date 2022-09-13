@@ -6,7 +6,7 @@ public class MyMath
     // Add a list of integers.
     public int Add(List<int> nums)
     {
-        throw new Exception("Not implemented");
+        return nums.Sum();
     }
 
     // Multiply two decimal numbers.
@@ -15,11 +15,10 @@ public class MyMath
         return num1 * num2;
     }
 
-    // Deliberate error in this function
     // Subtract two integers.
     public int Subtract(int num1, int num2)
     {
-        return num2 - num1;
+        return num1 - num2;
     }
 
     // Divide two decimal numbers.
@@ -27,5 +26,4 @@ public class MyMath
     {
         return num1/num2;
     }
-
 }
